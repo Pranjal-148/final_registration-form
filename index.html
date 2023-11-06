@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUworld</title>
+    <style>
+        td{
+            padding: 10px 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+      .head{ 
+            text-align: center;
+            padding: 30px ;
+            font-size: 80px;
+            font-family: cursive;
+
+      }
+      textarea{
+            resize: none;
+      }
+      th{
+          font-size: 25px;
+          padding: 20px;
+
+      }
+      .bd{
+        padding: 40px;
+        background-image: url('https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.jpg?size=626&ext=jpg&ga=GA1.1.949127857.1699268147&semt=ais'); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+      }
+
+    </style>
+    <link rel="shortcut icon" href="education.png"
+  </head>
+  <body class="bd">
+    <h1 class="head">EDUworld</h1>
+    <div >
+      <table
+        width="500px"
+        align="center"
+        border="5"
+        style="background-color: rgb(166, 185, 191); align-items: center; border: 4;font-family: cursive;">
+        <form action="submit.html">
+          <tr>
+            <th
+              colspan="4"
+              style="
+                color: rgb(255, 4, 4);
+                background-color: yellow;
+                align-items: center; 
+              "
+            >
+             PERSONAL DETAILS
+            </th>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>
+              <input type="text" name="Name" placeholder="enter your name" required/>
+            </td>
+          </tr>
+          <tr>
+            <td>Date Of Birth</td>
+            <td>
+              <input
+                type="date"
+                name="Date of birth"
+                placeholder="enter your dob"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Mobile</td>
+            <td>
+              <input
+                type="tel"
+                name="mobile"
+                placeholder="enter your mobile Number"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>
+                <textarea id="w3review" name="w3review" rows="3" cols="50" >
+               
+                </textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Father's Name</td>
+            <td>
+              <input
+                type="text"
+                name="Father's Name"
+                placeholder="enter father's name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>mother's Name</td>
+            <td>
+              <input
+                type="text"
+                name="mother's Name"
+                placeholder="enter mother's name"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Father's Occupation</td>
+            <td>
+              <input
+                type="text"
+                name="Father's occupation"
+                placeholder="enter father's occupation"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Mother's Occupation</td>
+            <td>
+              <input
+                type="text"
+                name="mother's occupation"
+                placeholder="enter mother's occupation"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Father's Mobile</td>
+            <td>
+              <input
+                type="text"
+                name="father's mobile"
+                placeholder="enter father's mobile"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Mother's Mobile</td>
+            <td>
+              <input
+                type="text"
+                name="mother's mobile"
+                placeholder="enter mother's mobile"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th
+              colspan="2"
+              style="
+                color: black;
+                background-color: yellow;
+                align-items: center;
+              "
+            >
+             EDUCATIONAL DETAILS
+            </th>
+          </tr>
+          <tr>
+            <td>10th School Name</td>
+            <td><input type="text" name="10th school name" required /></td>
+          </tr>
+          <tr>
+            <td>10th Percentage %</td>
+            <td><input type="number" name="10th percentage" min="0" max="100" required/></td>
+          </tr>
+          <tr>
+            <td>10th CGPA</td>
+            <td><input type="number" name="10th CGPA" min="0" max="10"required /></td>
+          </tr>
+          <tr>
+            <td>12th School Name</td>
+            <td><input type="text" name="12th school name" required/></td>
+          </tr>
+          <tr>
+            <td>12th Percentage %</td>
+            <td><input type="number" name="12th percentage" min="0" max="100"required/></td>
+          </tr>
+          <tr>
+            <td>12th CGPA</td>
+            <td><input type="number" name="12th CGPA" min="0" max="10" required /></td>
+          </tr>
+          <tr>
+            <th
+              colspan="2"
+              style="
+                color: rgb(255, 4, 4);
+                background-color: yellow;
+                align-items: center;
+              "
+            >
+           GRADUATION DETAILS
+            </th>
+          </tr>
+          <tr>
+            <td>College Name</td>
+            <td><input type="text" name="college name" required /></td>
+          </tr>
+          <tr>
+            <td>Passing Year</td>
+            <td><input type="date" name="passing year" required /></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="SUBMIT"  /></td>
+          </tr>
+          <tr>
+            <td><input type="reset" value="RESET" /></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+  </body>
+</html>
